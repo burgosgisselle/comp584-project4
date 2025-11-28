@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Random Cat Generator</title>
+
+  <!-- Link to CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Click to Reveal A New Cat!</h1>
+
+  <!-- Cat Card Container -->
+  <div id="catCard">
+
+    <!-- Cat image -->
+    <img id="catImage" src="" alt="Random Cat">
+
+    <!-- Cat breed text -->
+    <p id="catBreed"></p>
+
+    <!-- Breed description text -->
+    <p id="catDescription"></p>
+
+
+    <!-- Button to fetch a new cat -->
+    <button id="newCatBtn" class="btn btn-primary">Get New Cat</button>
+  </div>
+
+  <!-- Popmotion library -->
+  <script src="https://unpkg.com/popmotion@8.7.0/dist/popmotion.global.min.js"></script>
+
+  <!-- Link to JavaScript file -->
+  <script src="script.js"></script>
+
+</body>
+</html>

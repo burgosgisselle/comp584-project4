@@ -1,1 +1,88 @@
+/* Heading styling */
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 32px; 
+  text-align: center; 
+  margin-bottom: 20px; 
+  color: black;
+}
 
+/* Body layout */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Align items top to bottom */
+  justify-content: flex-start; 
+  margin: 0;
+  padding: 50px 20px; 
+  /* Full screen height */
+  min-height: 100vh; 
+  font-family: Arial, sans-serif;
+  background-image: url('./assets/background.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Cat card styling */
+#catCard {
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+  background:rgba(255, 255, 255, 0.493);
+  /* Gives the cat card a shadow to give it a more "lifted" appearance */
+  box-shadow: 0px 4px 10px rgba(0,0,0,.9);
+
+  /* Flexbox to center and stack children vertically */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Cat image styling */
+img {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#catBreed {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #222;
+  text-align: center;
+}
+
+#catDescription {
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 0;
+  color: #555;
+  text-align: center;
+  line-height: 1.4; 
+}
+
+/* Button styling */
+button {
+  margin-top: 15px;
+  padding: 12px 26px;
+  cursor: pointer;
+
+  background:black;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  font-size: 18px;
+  font-family: "Poppins", sans-serif; 
+  font-weight: 600;
+}
